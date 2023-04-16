@@ -8,7 +8,9 @@
   --logo-dark-txt-container: #2e2f42;
   --logo-btn-txt: #f4f4fd;
   --light-bg-container: #f4f4fd;
+  --icon: #8e8f99;
 }
+
 .body {
   font-family: var(--primary-font);
   font-size: 16px;
@@ -107,6 +109,9 @@ button {
   background-color: #404bbf;
   color: #ffffff;
   border: 1px solid transparent;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 
 .bth-portfolio:hover,
@@ -239,6 +244,8 @@ button {
 }
 .header-page {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .header-nav-list {
   display: flex;
@@ -274,6 +281,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 8px;
 }
 
 .uppertitle {
@@ -290,7 +298,7 @@ button {
   font-family: var(--primary-font);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.1;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -352,6 +360,8 @@ button {
 }
 .team-wrapper {
   padding: 32px 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .team-card {
   border-top-left-radius: 0px;
@@ -380,13 +390,11 @@ button {
   height: 40px;
   border-radius: 50%;
   background-color: #4d5ae5;
-
 }
 .social-link:hover,
 .social-link:focus {
-  background-color: #404BBF;
+  background-color: #31d0aa;
 }
-
 
 .social-icon {
   fill: #f4f4fd;
@@ -421,12 +429,16 @@ button {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+.card-link {
+  display: block;
+}
 
 .socials-icon {
   background: #f4f4fd;
 }
 .customers-icon {
-  fill: #8E8F99;
+  fill: currentColor;
+  color: var(--icon);
 }
 
 .customers {
@@ -434,27 +446,31 @@ button {
   justify-content: center;
   gap: 24px;
 }
-.icon-item{
+.icon-item {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 168px;
   height: 88px;
-  border: 1px solid #8E8F99;
+  border: 1px solid #8e8f99;
   border-radius: 4px;
 }
+.icon-item:hover,
+.icon-item:focus {
+  border-color: #404bbf;
+  fill: #404bbf;
+}
 .customers-container {
-  margin-top: 46px;
+  margin-top: 120px;
   margin-bottom: 120px;
 }
 .customers-icon:hover,
 .customers-icon:focus {
-
-  fill: #404BBF;
+  fill: #404bbf;
+  color: var(--icon);
 }
 .icon-item:hover,
 .icon-item:focus {
-  border-color: #404BBF;
-  color: #404BBF;
+  border-color: #404bbf;
+  color: #404bbf;
 }
-
