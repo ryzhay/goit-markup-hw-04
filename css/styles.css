@@ -186,7 +186,12 @@ button {
   gap: 120px;
   align-items: baseline;
 }
-
+.container-logo {
+  width: 264px;
+}
+.container-icon {
+width: 208px;
+}
 .logo {
   margin-right: 76px;
   font-family: var(--secondary-font);
@@ -409,6 +414,7 @@ button {
 .social-link-footer:focus {
   background-color: #31d0aa;
 }
+
 .social-icon {
   fill: #f4f4fd;
 }
@@ -437,13 +443,14 @@ button {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-.card-wrapper:hover,
-.card-wrapper:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
 .card-link {
   display: block;
+}
+
+.card-link:hover,
+.card-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+  0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .socials-icon {
