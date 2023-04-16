@@ -105,7 +105,8 @@ button {
   border: 1px solid #e7e9fc;
   border-radius: 4px;
 }
-.bth-portfolio:focus {
+.bth-portfolio:focus,
+.bth-portfolio:hover {
   background-color: #404bbf;
   color: #ffffff;
   border: 1px solid transparent;
@@ -393,9 +394,21 @@ button {
 }
 .social-link:hover,
 .social-link:focus {
+  background-color: var(--okean-active-btn);
+}
+.social-link-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+}
+.social-link-footer:hover,
+.social-link-footer:focus {
   background-color: #31d0aa;
 }
-
 .social-icon {
   fill: #f4f4fd;
 }
