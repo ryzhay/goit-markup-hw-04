@@ -239,6 +239,18 @@ button {
   padding-top: 188px;
   padding-bottom: 188px;
 }
+.section-icon {
+  background: #F4F4FD;
+border-radius: 4px;
+width: 264px;
+height: 112px;
+}
+.about-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
 
 .uppertitle {
   margin-bottom: 8px;
