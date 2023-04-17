@@ -190,7 +190,7 @@ button {
   width: 264px;
 }
 .container-icon {
-width: 208px;
+  width: 208px;
 }
 .logo {
   margin-right: 76px;
@@ -366,7 +366,6 @@ width: 208px;
 }
 .team-wrapper {
   padding: 32px 0;
-  
 }
 .team-card {
   border-top-left-radius: 0px;
@@ -449,15 +448,11 @@ width: 208px;
 .card-link:hover,
 .card-link:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-  0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .socials-icon {
   background: #f4f4fd;
-}
-.customers-icon {
-  fill: currentColor;
-  color: var(--icon);
 }
 
 .customers {
@@ -465,14 +460,19 @@ width: 208px;
   justify-content: center;
   gap: 24px;
 }
+.icon-list {
+  width: calc((100% (24px * 5)) / 6);
+}
 .icon-item {
+  fill: currentColor;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 168px;
-  height: 88px;
   border: 1px solid var(--icon);
   border-radius: 4px;
+  color: var(--icon);
+  width: 168px;
+  height: 88px;
 }
 .icon-item:hover,
 .icon-item:focus {
@@ -480,8 +480,8 @@ width: 208px;
   fill: #404bbf;
 }
 .customers-container {
-  margin-top: 120px;
-  margin-bottom: 120px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .customers-icon:hover,
 .customers-icon:focus {
